@@ -226,7 +226,10 @@ function App() {
             <Footer style={{textAlign: 'center'}}>
                 By Koonsland ©2022 Created by Ant UED
                 <Divider>
-                    <a target="_blank" href="https://koonsland.tistory.com">Koonsland</a>
+                    <a
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        href="https://koonsland.tistory.com">Koonsland</a>
                 </Divider>
             </Footer>
         </Layout>
