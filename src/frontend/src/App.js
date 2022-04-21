@@ -1,6 +1,20 @@
 import './App.css';
 import {useState, useEffect} from "react";
-import {Layout, Menu, Breadcrumb, Table, Spin, Empty, Button, Badge, Tag, Avatar, Radio, Popconfirm} from 'antd';
+import {
+    Layout,
+    Menu,
+    Breadcrumb,
+    Table,
+    Spin,
+    Empty,
+    Button,
+    Badge,
+    Tag,
+    Avatar,
+    Radio,
+    Popconfirm,
+    Divider
+} from 'antd';
 import {
     DesktopOutlined,
     PieChartOutlined,
@@ -209,7 +223,12 @@ function App() {
                     {renderStudents(students)}
                 </div>
             </Content>
-            <Footer style={{textAlign: 'center'}}>By Koonsland ©2022 Created by Ant UED</Footer>
+            <Footer style={{textAlign: 'center'}}>
+                By Koonsland ©2022 Created by Ant UED
+                <Divider>
+                    <a target="_blank" href="https://koonsland.tistory.com">Koonsland</a>
+                </Divider>
+            </Footer>
         </Layout>
     </Layout>
 }
