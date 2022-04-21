@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   backend:
-    image: "nicegsp/springboot-react-fullstack:3"
+    image: "nicegsp/springboot-react-fullstack:21.4.2022.1.31.59"
     ports:
       - "80:8080"
     restart: "always"
